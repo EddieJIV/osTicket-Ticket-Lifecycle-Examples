@@ -123,6 +123,12 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 - Finally, click on "Assigned To:"
 - Naturally, we are going to assign this ticket to the Online Banking team as this explicitly has to do with Online Banking.
 - Click Assign.
+- Once we've updated the ticket properties we are going to log out of John's account.
+
+<img width="700" height="700" alt="Jane login" src="https://github.com/user-attachments/assets/3c616d21-0220-460b-a135-8a7b3e0ada84" />
+
+- Now that the ticket properties have been updated, and assigned to the right team, we are going to log in as our online banking team member Jane and "work" the ticket to completion. 
+
 
 
 
