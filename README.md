@@ -79,7 +79,7 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 - Enter the above information into the Ticket Details from the perspective of Karen, then click create ticket.
 
-<img width="700" height="700" alt="Agent John... John Bonds" src="https://github.com/user-attachments/assets/95fe35ea-69f9-4a5c-93a9-0903a9977375" />
+<img width="700" height="700" alt="Agent Jane" src="https://github.com/user-attachments/assets/95fe35ea-69f9-4a5c-93a9-0903a9977375" />
 
 - Once the Support ticket request is created, open up the osTicket agent panel in another tab/window, and log in as John, our supoport agent.
 
@@ -88,7 +88,27 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 - First take note of the new open ticket that is now in the sytstem! You made that happen. All the way from creating the virtual machine on Azure that you're now working osTicket (that you installed and configured) in. Heck yeah!
 
 - Click on the newly created ticket and lets observe the properties.
-- 
+
+<img width="auto" height="auto" alt="Ticket 1 Properties" src="https://github.com/user-attachments/assets/58e4e593-185e-4703-9a60-8228934a4b4d" />
+
+- Here we see that the priority of the ticket is normal, the department selected is the Support department, the ticket is not assisged to anyone in particular yet, and the default SLA plan is selected.
+- But, based off of what we're reading, this appears to be a very serious ticket. As the help desk agent, we are going to adjust the ticket properties accordingly.
+- In this case, as it seems very serious, we would most likely contact the person who made the ticket to speak with them on the phone/ or on teams to get a better understanding of the situation and its context.
+- But, for this lab, we are just going to go ahead and set the properties of this ticket accordingly so it gets routed to the right place.
+
+---
+
+- First, click on the SLA plan.
+
+
+<img width="700" height="700" alt="update SLA" src="https://github.com/user-attachments/assets/40a2a866-c548-42d7-afc0-154470bb9827" />
+
+
+- For the SLA, since this is a very serious issue, we are going to set it to Sev-A.
+  - As per las lab: Sev-A represents the highest priority level, typically reserved for critical issues that severely impact business operations or cause significant disruption.
+
+<img width="700" height="700" alt="Update Help Topic" src="https://github.com/user-attachments/assets/62f40770-7892-4d04-9035-af1bcc368f2d" />
+
 
 
 
