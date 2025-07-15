@@ -106,8 +106,24 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 - For the SLA, since this is a very serious issue, we are going to set it to Sev-A.
   - As per las lab: Sev-A represents the highest priority level, typically reserved for critical issues that severely impact business operations or cause significant disruption.
+  - Click update
 
 <img width="700" height="700" alt="Update Help Topic" src="https://github.com/user-attachments/assets/62f40770-7892-4d04-9035-af1bcc368f2d" />
+
+- Although the end-user was not necessarily wrong in putting "Report a Problem" for the help topic, what more appropriately would fit is Report a Problem / Business Critical Outage". Since the entire online baking system is down and no user can access it/ log in.
+- Click update.
+
+<img width="700" height="700" alt="Refresh Ticket- Thread" src="https://github.com/user-attachments/assets/95ff98d1-f500-4b87-84a1-bb19641f3c00" />
+
+- If you refresh the ticket, youll notice that any changes we make to the ticket can be seen below in the ticket thread. This is beneficial for agents to see and observe ticket updates in real time and have an understanding on what part of the lifecycle this ticket is on and who is handling it/ working through it.
+
+<img width="700" height="700" alt="Assign to a Team" src="https://github.com/user-attachments/assets/a54b3da6-bace-4b04-8acb-a284eede6a2e" />
+
+
+- Finally, click on "Assigned To:"
+- Naturally, we are going to assign this ticket to the Online Banking team as this explicitly has to do with Online Banking.
+- Click Assign.
+
 
 
 
