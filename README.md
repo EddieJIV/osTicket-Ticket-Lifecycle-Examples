@@ -242,13 +242,29 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 
 # Example 3: CFO's Laptop won't turn on
 
+- For this example, we are going to pretend like the CFO personally called you in a frenzy because he has a meeting with the company's board members in 30 minutes and his laptop will not turn on.
+- With this information, you understand that time is of the essence so you kindly and calmly ask them for permission to swing by their office to take a look at it.
+
+<img width="700" height="700" alt="Adminuser login" src="https://github.com/user-attachments/assets/b3f9086e-b0ba-4743-bf11-8fcc044d5ca3" />
+
+- Sign into your (adminuser) osTicket account. 
+- With the understanding that this is a bit of an emergency for the CFO you do not bother to ask them to submit a ticket, knowing you can quickly do it yourself prior to heading over to the CFO's office.
+
+<img width="700" height="700" alt="New Ticket" src="https://github.com/user-attachments/assets/0730a7bc-b4d6-428e-82de-9abba61ba117" />
+
+- Open up the Agent Panel and navigate to Tickets > New Ticket
+  - Click on New Ticket
+
+
+
+
 
 
 
 
 
 ## Conclusion
-This concludes our project. We have successfully navigated through the life cycle of a Help Desk ticket within osTicket. I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk! Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 
+This concludes our project. We have successfully navigated through the life cycle of 3 Help Desk tickets within osTicket. I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk!
 
 
 
