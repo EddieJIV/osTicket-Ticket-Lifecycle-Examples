@@ -171,6 +171,48 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
  - Congratulations! You have successfully created, worked, and resolved a Help Desk ticket within osTicket!
 
+# Example 2: "Adobe Broke"
+
+<img width="700" height="700" alt="Example 2" src="https://github.com/user-attachments/assets/fd7ed77a-60c5-4110-95bd-77a9de512b78" />
+
+- Utilize the end user portal to open a new Ticket as our end-user Karen.
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/5364b5f3-a8fc-45ea-8a51-8e799173676b" />
+
+- Enter the information above into the the new ticket's details. Click Creeate Ticket.
+- Notice how this ticket is also very ambiguous and is made out to seem almost like a critical outage.
+  - *It should be quickly detemined that reaching out to the customer who submitted the ticket to gain a better understanding of the context of the situation would be very helpful.*
+ 
+ <img width="700" height="700" alt="John login" src="https://github.com/user-attachments/assets/2ac74c1e-43e3-4dcb-8614-ee9477098b1f" />
+
+ - Log back in as John for further investigation of the issue.
+
+ <img width="700" height="700" alt="Initial Ticket inspection" src="https://github.com/user-attachments/assets/51c24913-65b0-44a6-9412-5a66cefe0e48" />
+
+
+- We can see that the ticket from Karen has come through, and we are going to analyze the issue for a more detailed categorization and further assignment of the ticket.
+- Again, a good place to start with this after initially analyzing the ticket and noticing that is is very ambiguous would be to contact Karen and essentially ask her what she exactly means by "many people cant use their adobe accounts".
+- From our conversation with Karen, its determined that "Many people" turned out to be Karen and oner other person, and that the Adobe software on their computer simply will not open/run.
+- After hearing this you politely ask Karen if she can restart her computer and try to re-open Adobe. She says to you that her and her department are about to go on lunch and will try when she returns.
+- In the meantime, we can now update out ticket properly with the actual context of the situation at hand.
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/59d25133-5d38-4b49-941a-8e9679803b82" />
+
+- With our now detailed understanding of the ticket, it looks like the priority, Help Topic, and Department are all categorized sufficiently.
+- We simply need to take the ticket over as John, and assign a proper SLA.
+
+<img width="700" height="7009" alt="image" src="https://github.com/user-attachments/assets/001aa9d6-73b3-47f0-8aa9-16d77fd6a4f2" />
+
+- Click on Assign to and take the ticket over as John.
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/f28db769-6002-46bb-b611-dd5c4a136f7a" />
+
+- Next, click on SLA Plan.
+- Since we know it's only two people in the department having this issue and not the whole department we can set the Sev to Sev-C.
+
+
+
+
 
 
 
