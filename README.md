@@ -105,7 +105,7 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 
 - For the SLA, since this is a very serious issue, we are going to set it to Sev-A.
-  - As per las lab: Sev-A represents the highest priority level, typically reserved for critical issues that severely impact business operations or cause significant disruption.
+  - As per the last lab: Sev-A represents the highest priority level, typically reserved for critical issues that severely impact business operations or cause significant disruption.
   - Click update
 
 <img width="700" height="700" alt="Update Help Topic" src="https://github.com/user-attachments/assets/62f40770-7892-4d04-9035-af1bcc368f2d" />
@@ -123,11 +123,42 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 - Finally, click on "Assigned To:"
 - Naturally, we are going to assign this ticket to the Online Banking team as this explicitly has to do with Online Banking.
 - Click Assign.
-- Once we've updated the ticket properties we are going to log out of John's account.
+- Once we've updated the ticket properties we are going to log out of John's account and move on to the next stage of the tickets lifecycle.
 
 <img width="700" height="700" alt="Jane login" src="https://github.com/user-attachments/assets/3c616d21-0220-460b-a135-8a7b3e0ada84" />
 
-- Now that the ticket properties have been updated, and assigned to the right team, we are going to log in as our online banking team member Jane and "work" the ticket to completion. 
+- Now that the ticket properties have been updated, and assigned to the right team, we are going to log in as our online banking team member Jane and "work" the ticket to completion.
+- Once loggin in, click on the ticket to get back into the ticket details.
+
+<img width="700" height="700" alt="Jane takes ticket" src="https://github.com/user-attachments/assets/2ab23d5b-c327-4209-8857-6c4decfb1635" />
+
+- Notice how this ticket is effectively assigned to the entire online baking team currently.
+- As Jane, we are going to take this ticket over and act as if she will be the one to theoretically work the ticket to completion.
+
+<img width="700" height="700" alt="Update assignee" src="https://github.com/user-attachments/assets/86a449ee-f895-4d7f-9ea1-9964984cee8a" />
+
+- Click on who it is assigned to and we will update the Assignee to Jane.
+
+<img width="700" height="700" alt="Assignee updated to OB/Jane" src="https://github.com/user-attachments/assets/ac135ffb-1683-42ce-83d9-2dd2ed2fa2fb" />
+ 
+- Notice how the Assigned to section is now labled as Jane Doe/Online banking.
+
+<img width="700" height="700" alt="client update" src="https://github.com/user-attachments/assets/765f5c41-d89f-467b-ae74-e3758acb1088" />
+
+- Now, we are going to update the client about her ticket to keep her in the loop about what we are doing to work her ticket to completion.
+- Click Post Reply.
+
+<img width="700" height="700" alt="Rollback" src="https://github.com/user-attachments/assets/b0e463c8-94c0-4968-bffc-4ed2b1d49270" />
+
+- Next lets update the client and inform her that we were able to determine a cause for her issue and that a resolution has been put into place, and that Online Banking should be up and running again.
+- Click post reply.
+
+<img width="700" height="700" alt="Work trail" src="https://github.com/user-attachments/assets/16b779b1-998f-4a00-8031-0315d2d4eadb" />
+
+- Notice how osTicket shows us the "trail" of work that has been done to get this ticket from its opening stages to its resolution.
+
+
+
 
 
 
