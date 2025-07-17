@@ -98,18 +98,16 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 ---
 
-- First, click on the SLA plan.
-
-
 <img width="700" height="700" alt="update SLA" src="https://github.com/user-attachments/assets/40a2a866-c548-42d7-afc0-154470bb9827" />
 
-
+- First, click on the SLA plan.
 - For the SLA, since this is a very serious issue, we are going to set it to Sev-A.
   - As per the last lab: Sev-A represents the highest priority level, typically reserved for critical issues that severely impact business operations or cause significant disruption.
   - Click update
 
 <img width="700" height="700" alt="Update Help Topic" src="https://github.com/user-attachments/assets/62f40770-7892-4d04-9035-af1bcc368f2d" />
 
+- Click on the help topic to update it.
 - Although the end-user was not necessarily wrong in putting "Report a Problem" for the help topic, what more appropriately would fit is Report a Problem / Business Critical Outage". Since the entire online baking system is down and no user can access it/ log in.
 - Click update.
 
@@ -169,7 +167,9 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
  <img width="700" height="700" alt="resolved" src="https://github.com/user-attachments/assets/3de6b423-76e1-43fd-abc2-9dd2c25b87b3" />
 
- - Congratulations! You have successfully created, worked, and resolved a Help Desk ticket within osTicket!
+Congratulations! We've meticulously navigated the lifecycle of a help desk ticket, starting from its creation by end-user Karen, to its successful resolution by agent Jane, and sucessfuly resolved a Help Desk ticket within osTicket! 
+
+Now, on to the next example:
 
 # Example 2: "Adobe Broke"
 
@@ -196,19 +196,61 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 - After hearing this you politely ask Karen if she can restart her computer and try to re-open Adobe. She says to you that her and her department are about to go on lunch and will try when she returns.
 - In the meantime, we can now update out ticket properly with the actual context of the situation at hand.
 
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/59d25133-5d38-4b49-941a-8e9679803b82" />
+<img width="700" height="700" alt="overview" src="https://github.com/user-attachments/assets/59d25133-5d38-4b49-941a-8e9679803b82" />
 
 - With our now detailed understanding of the ticket, it looks like the priority, Help Topic, and Department are all categorized sufficiently.
 - We simply need to take the ticket over as John, and assign a proper SLA.
 
-<img width="700" height="7009" alt="image" src="https://github.com/user-attachments/assets/001aa9d6-73b3-47f0-8aa9-16d77fd6a4f2" />
+<img width="700" height="7009" alt="Assignee" src="https://github.com/user-attachments/assets/001aa9d6-73b3-47f0-8aa9-16d77fd6a4f2" />
 
 - Click on Assign to and take the ticket over as John.
 
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/f28db769-6002-46bb-b611-dd5c4a136f7a" />
+<img width="700" height="700" alt="Update SLA" src="https://github.com/user-attachments/assets/f28db769-6002-46bb-b611-dd5c4a136f7a" />
 
 - Next, click on SLA Plan.
 - Since we know it's only two people in the department having this issue and not the whole department we can set the Sev to Sev-C.
+
+<img width="700" height="700" alt="Log update" src="https://github.com/user-attachments/assets/d4ed2bb5-4250-4bc5-ba57-7b2896ab0206" />
+
+- Now, lets update the ticket notes. It is important to know that this is how not only the IT department, but the customer as well, will be updated on the progress of the ticket. Click Post reply.
+
+---
+~ Lunchtime passes ~
+
+---
+
+- Karen calls back and she says that they restarted their computers and their computers, and Adobe Readers are working just fine and there are now more issues anymore. Great!
+
+<img width="700" height="700" alt="Resolved note" src="https://github.com/user-attachments/assets/5dd6e298-dfef-474c-af98-9a1cb97f8642" />
+
+- Now we can make another note in the ticket explaining the call we just had with Karen, and noting that the ticket will subsequently be closed.
+
+<img width="700" height="700" alt="RESOLVED" src="https://github.com/user-attachments/assets/819e21fc-27c7-4aa0-b147-fe62383af7d1" />
+
+- Now that the ticket's notes log has been updated with everything we have done from inital intake, all the way to the resolution of the ticket, we can go ahead and set the status of this ticket to resolved! 
+
+<img width="700" height="700" alt="No Open tickeys" src="https://github.com/user-attachments/assets/fd0caa1d-833d-4d2e-8b57-a75c77ab5b3d" />
+
+- After hitting close, you should be routed back to the ticket dashboard and see that there are no more open tickets.
+
+<img width="700" height="700" alt="Closed tickets thus far" src="https://github.com/user-attachments/assets/f3e87bba-dac8-42b0-be32-82aed843e32a" />
+
+
+- By navigating to the Closed tab under the Tickets heading you should be able to see the ticket we just worked to completion as well as the first one.
+
+Congratulations! Thats another ticket down. We successfully navigated the ticketing process for a reported issue with Adobe, transforming an ambiguous ticket into a clear and actionable support request. By engaging with the end-user, Karen, we clarified the situation, categorized the ticket appropriately, and assigned the correct SLA. After troubleshooting and confirming the resolution, we documented each step, ensuring transparency and effective communication. 
+
+# Example 3: CFO's Laptop won't turn on
+
+
+
+
+
+
+## Conclusion
+This concludes our project. We have successfully navigated through the life cycle of a Help Desk ticket within osTicket. I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk! Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 
+
+
 
 
 
