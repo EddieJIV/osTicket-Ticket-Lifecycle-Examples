@@ -73,7 +73,7 @@ The ticket is officially closed, completing the lifecycle.
 
 Keep in mind, we are going to enter this from the context/ point of view as the end-user (Karen) and not the IT Support specialist/ Agent to make it more realistic. 
 
-Hence why we are simply selecting "Report a problem" rather than something more severe like "Report a problem/ Business Critical outage" because alot of the time the end-user will not necessarily put thje correct info into the ticket initially.
+Hence why we are simply selecting "Report a problem" rather than something more severe like "Report a problem/ Business Critical outage" because alot of the time the end-user will not necessarily put the correct info into the ticket initially.
 
 <img width="700" height="700" alt="Ticket Details- OBS" src="https://github.com/user-attachments/assets/f5bfe3b4-52cc-4870-bb95-490c3e680fc5" />
 
@@ -113,6 +113,11 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 - Although the end-user was not necessarily wrong in putting "Report a Problem" for the help topic, what more appropriately would fit is Report a Problem / Business Critical Outage". Since the entire online baking system is down and no user can access it/ log in.
 - Click update.
 
+<img width="700" height="700" alt="Priority level" src="https://github.com/user-attachments/assets/1e9f7f7f-6897-418f-8d60-094552c1d56c" />
+
+- In that same vein, we are going to set the priority level to emergency.
+
+
 <img width="700" height="700" alt="Refresh Ticket- Thread" src="https://github.com/user-attachments/assets/95ff98d1-f500-4b87-84a1-bb19641f3c00" />
 
 - If you refresh the ticket, youll notice that any changes we make to the ticket can be seen below in the ticket thread. This is beneficial for agents to see and observe ticket updates in real time and have an understanding on what part of the lifecycle this ticket is on and who is handling it/ working through it.
@@ -150,12 +155,23 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 <img width="700" height="700" alt="Rollback" src="https://github.com/user-attachments/assets/b0e463c8-94c0-4968-bffc-4ed2b1d49270" />
 
-- Next lets update the client and inform her that we were able to determine a cause for her issue and that a resolution has been put into place, and that Online Banking should be up and running again.
+- Next lets update the client and inform her that we were able to determine a cause for the issue, that a resolution has been put into place, and that Online Banking should be up and running again.
 - Click post reply.
 
 <img width="700" height="700" alt="Work trail" src="https://github.com/user-attachments/assets/16b779b1-998f-4a00-8031-0315d2d4eadb" />
 
 - Notice how osTicket shows us the "trail" of work that has been done to get this ticket from its opening stages to its resolution.
+
+<img width="700" height="700" alt="700" src="https://github.com/user-attachments/assets/d2adb80a-b1d5-465a-b29d-a6cc3847b8fa" />
+
+- Now that the issue has been fixed and the end user has been updated, lets close out the ticket.
+- We can now update the status of the ticket to resolved, simply by clicking on its current status, marking it resolved, and clicking close!
+
+ <img width="700" height="700" alt="resolved" src="https://github.com/user-attachments/assets/3de6b423-76e1-43fd-abc2-9dd2c25b87b3" />
+
+ - Congratulations! You have successfully created, worked, and resolved a Help Desk ticket within osTicket!
+
+
 
 
 
