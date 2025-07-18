@@ -255,6 +255,21 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 - Open up the Agent Panel and navigate to Tickets > New Ticket
   - Click on New Ticket
 
+<img width="700" height="700" alt="Add CFO" src="https://github.com/user-attachments/assets/cc4a8286-d9d9-4d58-aa50-cab493dc4028" />
+
+- For the sake of this lab we are going to quickly add an account for the CFO.
+  - Obviously, if this was a real-life scenario the CFO would have an account that we would select at this point. So we can just use this as practice with navigating the software and building intuition!
+- Click Add User.
+
+<img width="700" height="700" alt="Initial details" src="https://github.com/user-attachments/assets/fdd74855-588c-495b-91cd-cdd94f471503" />
+
+- Begin filling out the initial ticket details.
+- Since the CFO called us, we are going to make the ticket source the phone, set the alert to alert user, and at this point we can use our intuition to fill out the Help Topic and Department.
+- Since the context of the situation is that thier laptop is not working and is needed for a meeting with the company's board members in 30 minutes, we are going to mark it as Sev-A.
+- Assign it to yourself. You'll be taking this one!
+- Fill out the rest of the details as seen above.
+ 
+
 
 
 
@@ -264,7 +279,7 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 
 
 ## Conclusion
-This concludes our project. We have successfully navigated through the life cycle of 3 Help Desk tickets within osTicket. I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk!
+This concludes our project. We have successfully navigated through the life cycle of 3 Help Desk tickets within osTicket. Obviously there is much more to this product that covered here thus I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk!
 
 
 
