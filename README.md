@@ -268,6 +268,30 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 - Since the context of the situation is that thier laptop is not working and is needed for a meeting with the company's board members in 30 minutes, we are going to mark it as Sev-A.
 - Assign it to yourself. You'll be taking this one!
 - Fill out the rest of the details as seen above.
+
+<img width="700" height="700" alt="initial response" src="https://github.com/user-attachments/assets/1b743a62-6ba7-4dc0-89fc-35252c29f2df" />
+
+- Moving down the line, we are going to set the priority to high as this ticket needs to be resolved within the next 20-25 minutes or they will miss their board meeting.
+- We will also provide our initial response to the situation, then click on Open.
+
+<img width="700" height="700" alt="new ticket" src="https://github.com/user-attachments/assets/967c2d19-ab8e-4ffe-a1e5-d28a26363183" />
+
+- Here we can see our newly created ticket and quickly scan over it to make sure everything looks correct, then we will hop into action.
+
+<img width="700" height="700" alt="broken charger" src="https://github.com/user-attachments/assets/bce44683-56d4-4ed6-8cf5-828f4df77258" />
+
+- In this case, it turns out that the issue was just a broken charger thankfully and not a more technical hardware issue. We quickly replace the charger for the CFO, notice the laptop boots up just fine now and we head back to our desk to close the ticket!
+- First, we need to update the notes for the ticket, explaining what we did to resolve the issue.
+- Click post reply.
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/8f47adad-2514-456d-ad6b-4c30b798fce4" />
+
+
+- Click on the tickets status that is currently set to open, and change it to resolved!
+- Breifly explain the issue and how it was resolved, then hit close! Crisis averted!!!
+
+
+
  
 
 
@@ -279,7 +303,8 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 
 
 ## Conclusion
-This concludes our project. We have successfully navigated through the life cycle of 3 Help Desk tickets within osTicket. Obviously there is much more to this product that covered here thus I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk!
+This concludes our final project in the osTicket lab series!!! In this lab we have successfully navigated through the life cycle of 3 Help Desk tickets within osTicket. Obviously there is much more to this product that covered here thus I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk.
+If you made it this far, I want to take a moment to sincerely thank you for joining me on this journey. It’s been a long road, and your dedication and enthusiasm have made it all the more rewarding. Thank you for being a part of this experience!
 
 
 
