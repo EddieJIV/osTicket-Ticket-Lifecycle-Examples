@@ -66,14 +66,14 @@ The ticket is officially closed, completing the lifecycle.
 
 
  - So, log into the end user portal using the link above.
- - Select, "Open a New Ticket"
+ - Select, "Open a New Ticket".
 
 <img width="700" height="700" alt="End-User Submission" src="https://github.com/user-attachments/assets/33b0345b-46d7-4836-995c-794bea2ab4f7" />
 
 
 
 - Enter Karen's contact information.
-- For the Help Topic, we are going to select **Report a Problem**
+- For the Help Topic, we are going to select **Report a Problem**.
 
 Keep in mind, we are going to enter this from the context/ point of view as the end-user (Karen) and not the IT Support specialist/ Agent to make it more realistic. 
 
