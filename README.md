@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
+
 # osTicket-Ticket-Lifecycle-Examples
 *To explore the complete lifecycle of a support ticket using osTicket, in order to demonstrate understanding of ticket management and workflow in real IT enviornments.*
 
