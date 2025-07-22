@@ -3,7 +3,7 @@
 </p>
 
 # osTicket-Ticket-Lifecycle-Examples
-*To explore the complete lifecycle of a support ticket using osTicket, in order to demonstrate understanding of ticket management and workflow in real IT enviornments.*
+*To explore the complete lifecycle of a support ticket using osTicket, in order to demonstrate understanding of ticket management and workflow in real IT environments.*
 
 ## Prerequisites
 - [osTicket Installation within an Azure VM](https://github.com/EddieJIV/osticket-prereqs)
@@ -77,7 +77,7 @@ The ticket is officially closed, completing the lifecycle.
 
 Keep in mind, we are going to enter this from the context/ point of view as the end-user (Karen) and not the IT Support specialist/ Agent to make it more realistic. 
 
-Hence why we are simply selecting "Report a problem" rather than something more severe like "Report a problem/ Business Critical outage" because alot of the time the end-user will not necessarily put the correct info into the ticket initially.
+Hence why we are simply selecting "Report a problem" rather than something more severe like "Report a problem/ Business Critical outage" because a lot of the time the end-user will not necessarily put the correct info into the ticket initially.
 
 <img width="700" height="700" alt="Ticket Details- OBS" src="https://github.com/user-attachments/assets/f5bfe3b4-52cc-4870-bb95-490c3e680fc5" />
 
@@ -85,19 +85,19 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 <img width="700" height="700" alt="Agent Jane" src="https://github.com/user-attachments/assets/95fe35ea-69f9-4a5c-93a9-0903a9977375" />
 
-- Once the Support ticket request is created, open up the osTicket agent panel in another tab/window, and log in as John, our supoport agent.
+- Once the Support ticket request is created, open up the osTicket agent panel in another tab/window, and log in as John, our support agent.
 
 <img width="700" height="700" alt="Agent logged in" src="https://github.com/user-attachments/assets/c2661662-cc89-48b0-8d84-9066b67cd245" />
 
-- First take note of the new open ticket that is now in the sytstem! You made that happen. All the way from creating the virtual machine on Azure that you're now working osTicket (that you installed and configured) in. Heck yeah!
+- First, take note of the new open ticket that is now in the system! You made that happen. All the way from creating the virtual machine on Azure that you're now working on osTicket (that you installed and configured) in. Heck yeah!
 
-- Click on the newly created ticket and lets observe the properties.
+- Click on the newly created ticket and let's observe the properties.
 
 <img width="auto" height="auto" alt="Ticket 1 Properties" src="https://github.com/user-attachments/assets/58e4e593-185e-4703-9a60-8228934a4b4d" />
 
-- Here we see that the priority of the ticket is normal, the department selected is the Support department, the ticket is not assisged to anyone in particular yet, and the default SLA plan is selected.
-- But, based off of what we're reading, this appears to be a very serious ticket. As the help desk agent, we are going to adjust the ticket properties accordingly.
-- In this case, as it seems very serious, we would most likely contact the person who made the ticket to speak with them on the phone/ or on teams to get a better understanding of the situation and its context.
+- Here we see that the priority of the ticket is normal, the department selected is the Support department, the ticket is not assigned to anyone in particular yet, and the default SLA plan is selected.
+- But, based on what we're reading, this appears to be a very serious ticket. As the help desk agent, we are going to adjust the ticket properties accordingly.
+- In this case, as it seems very serious, we would most likely contact the person who made the ticket to speak with them on the phone/ or on Teams to get a better understanding of the situation and its context.
 - But, for this lab, we are just going to go ahead and set the properties of this ticket accordingly so it gets routed to the right place.
 
 ---
@@ -122,7 +122,7 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 <img width="700" height="700" alt="Refresh Ticket- Thread" src="https://github.com/user-attachments/assets/95ff98d1-f500-4b87-84a1-bb19641f3c00" />
 
-- If you refresh the ticket, youll notice that any changes we make to the ticket can be seen below in the ticket thread. This is beneficial for agents to see and observe ticket updates in real time and have an understanding on what part of the lifecycle this ticket is on and who is handling it/ working through it.
+- If you refresh the ticket, you'll notice that any changes we make to the ticket can be seen below in the ticket thread. This is beneficial for agents to see and observe ticket updates in real time and have an understanding on what part of the lifecycle this ticket is on and who is handling it/ working through it.
 
 <img width="700" height="700" alt="Assign to a Team" src="https://github.com/user-attachments/assets/a54b3da6-bace-4b04-8acb-a284eede6a2e" />
 
@@ -130,12 +130,12 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 - Finally, click on "Assigned To:"
 - Naturally, we are going to assign this ticket to the Online Banking team as this explicitly has to do with Online Banking.
 - Click Assign.
-- Once we've updated the ticket properties we are going to log out of John's account and move on to the next stage of the tickets lifecycle.
+- Once we've updated the ticket properties, we are going to log out of John's account and move on to the next stage of the ticket's lifecycle.
 
 <img width="700" height="700" alt="Jane login" src="https://github.com/user-attachments/assets/3c616d21-0220-460b-a135-8a7b3e0ada84" />
 
-- Now that the ticket properties have been updated, and assigned to the right team, we are going to log in as our online banking team member Jane and "work" the ticket to completion.
-- Once loggin in, click on the ticket to get back into the ticket details.
+- Now that the ticket properties have been updated and assigned to the right team, we are going to log in as our online banking team member Jane and "work" the ticket to completion.
+- Once logging in, click on the ticket to get back into the ticket details.
 
 <img width="700" height="700" alt="Jane takes ticket" src="https://github.com/user-attachments/assets/2ab23d5b-c327-4209-8857-6c4decfb1635" />
 
@@ -148,7 +148,7 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 <img width="700" height="700" alt="Assignee updated to OB/Jane" src="https://github.com/user-attachments/assets/ac135ffb-1683-42ce-83d9-2dd2ed2fa2fb" />
  
-- Notice how the Assigned to section is now labled as Jane Doe/Online banking.
+- Notice how the Assigned to section is now labeled as Jane Doe/Online banking.
 
 <img width="700" height="700" alt="client update" src="https://github.com/user-attachments/assets/765f5c41-d89f-467b-ae74-e3758acb1088" />
 
@@ -157,7 +157,7 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 <img width="700" height="700" alt="Rollback" src="https://github.com/user-attachments/assets/b0e463c8-94c0-4968-bffc-4ed2b1d49270" />
 
-- Next lets update the client and inform her that we were able to determine a cause for the issue, that a resolution has been put into place, and that Online Banking should be up and running again.
+- Next, let's update the client and inform her that we were able to determine a cause for the issue, that a resolution has been put into place, and that Online Banking should be up and running again.
 - Click post reply.
 
 <img width="700" height="700" alt="Work trail" src="https://github.com/user-attachments/assets/16b779b1-998f-4a00-8031-0315d2d4eadb" />
@@ -166,12 +166,12 @@ Hence why we are simply selecting "Report a problem" rather than something more 
 
 <img width="700" height="700" alt="700" src="https://github.com/user-attachments/assets/d2adb80a-b1d5-465a-b29d-a6cc3847b8fa" />
 
-- Now that the issue has been fixed and the end user has been updated, lets close out the ticket.
+- Now that the issue has been fixed and the end user has been updated, let's close out the ticket.
 - We can now update the status of the ticket to resolved, simply by clicking on its current status, marking it resolved, and clicking close!
 
  <img width="700" height="700" alt="resolved" src="https://github.com/user-attachments/assets/3de6b423-76e1-43fd-abc2-9dd2c25b87b3" />
 
-Congratulations! We've meticulously navigated the lifecycle of a help desk ticket, starting from its creation by end-user Karen, to its successful resolution by agent Jane, and sucessfuly resolved a Help Desk ticket within osTicket! 
+Congratulations! We've meticulously navigated the lifecycle of a help desk ticket, starting from its creation by end-user Karen, to its successful resolution by agent Jane, and successfully resolved a Help Desk ticket within osTicket! 
 
 Now, on to the next example:
 
@@ -183,9 +183,9 @@ Now, on to the next example:
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/5364b5f3-a8fc-45ea-8a51-8e799173676b" />
 
-- Enter the information above into the the new ticket's details. Click Creeate Ticket.
+- Enter the information above into the the new ticket's details. Click Create Ticket.
 - Notice how this ticket is also very ambiguous and is made out to seem almost like a critical outage.
-  - *It should be quickly detemined that reaching out to the customer who submitted the ticket to gain a better understanding of the context of the situation would be very helpful.*
+  - *It should be quickly determined that reaching out to the customer who submitted the ticket to gain a better understanding of the context of the situation would be very helpful.*
  
  <img width="700" height="700" alt="John login" src="https://github.com/user-attachments/assets/2ac74c1e-43e3-4dcb-8614-ee9477098b1f" />
 
@@ -195,10 +195,10 @@ Now, on to the next example:
 
 
 - We can see that the ticket from Karen has come through, and we are going to analyze the issue for a more detailed categorization and further assignment of the ticket.
-- Again, a good place to start with this after initially analyzing the ticket and noticing that is is very ambiguous would be to contact Karen and essentially ask her what she exactly means by "many people cant use their adobe accounts".
-- From our conversation with Karen, its determined that "Many people" turned out to be Karen and oner other person, and that the Adobe software on their computer simply will not open/run.
-- After hearing this you politely ask Karen if she can restart her computer and try to re-open Adobe. She says to you that her and her department are about to go on lunch and will try when she returns.
-- In the meantime, we can now update out ticket properly with the actual context of the situation at hand.
+- Again, a good place to start with this after initially analyzing the ticket and noticing that it is very ambiguous would be to contact Karen and essentially ask her what she exactly means by "many people can't use their Adobe accounts".
+- From our conversation with Karen, it's determined that "Many people" turned out to be Karen and one other person, and that the Adobe software on their computer simply will not open/run.
+- After hearing this, you politely ask Karen if she can restart her computer and try to re-open Adobe. She says to you that her and her department are about to go on lunch and will try when she returns.
+- In the meantime, we can now update our ticket properly with the actual context of the situation at hand.
 
 <img width="700" height="700" alt="overview" src="https://github.com/user-attachments/assets/59d25133-5d38-4b49-941a-8e9679803b82" />
 
@@ -212,18 +212,18 @@ Now, on to the next example:
 <img width="700" height="700" alt="Update SLA" src="https://github.com/user-attachments/assets/f28db769-6002-46bb-b611-dd5c4a136f7a" />
 
 - Next, click on SLA Plan.
-- Since we know it's only two people in the department having this issue and not the whole department we can set the Sev to Sev-C.
+- Since we know it's only two people in the department having this issue and not the whole department, we can set the Sev to Sev-C.
 
 <img width="700" height="700" alt="Log update" src="https://github.com/user-attachments/assets/d4ed2bb5-4250-4bc5-ba57-7b2896ab0206" />
 
-- Now, lets update the ticket notes. It is important to know that this is how not only the IT department, but the customer as well, will be updated on the progress of the ticket. Click Post reply.
+- Now, let's update the ticket notes. It is important to know that this is how not only the IT department, but the customer as well, will be updated on the progress of the ticket. Click Post reply.
 
 ---
 ~ Lunchtime passes ~
 
 ---
 
-- Karen calls back and she says that they restarted their computers and their computers, and Adobe Readers are working just fine and there are now more issues anymore. Great!
+- Karen calls back and she says that they restarted their computers, and their Adobe Readers are working just fine, and there are no more issues. Great!
 
 <img width="700" height="700" alt="Resolved note" src="https://github.com/user-attachments/assets/5dd6e298-dfef-474c-af98-9a1cb97f8642" />
 
@@ -231,7 +231,7 @@ Now, on to the next example:
 
 <img width="700" height="700" alt="RESOLVED" src="https://github.com/user-attachments/assets/819e21fc-27c7-4aa0-b147-fe62383af7d1" />
 
-- Now that the ticket's notes log has been updated with everything we have done from inital intake, all the way to the resolution of the ticket, we can go ahead and set the status of this ticket to resolved! 
+- Now that the ticket's notes log has been updated with everything we have done from initial intake, all the way to the resolution of the ticket, we can go ahead and set the status of this ticket to resolved! 
 
 <img width="700" height="700" alt="No Open tickeys" src="https://github.com/user-attachments/assets/fd0caa1d-833d-4d2e-8b57-a75c77ab5b3d" />
 
@@ -240,13 +240,13 @@ Now, on to the next example:
 <img width="700" height="700" alt="Closed tickets thus far" src="https://github.com/user-attachments/assets/f3e87bba-dac8-42b0-be32-82aed843e32a" />
 
 
-- By navigating to the Closed tab under the Tickets heading you should be able to see the ticket we just worked to completion as well as the first one.
+- By navigating to the Closed tab under the Tickets heading, you should be able to see the ticket we just worked to completion as well as the first one.
 
-Congratulations! Thats another ticket down. We successfully navigated the ticketing process for a reported issue with Adobe, transforming an ambiguous ticket into a clear and actionable support request. By engaging with the end-user, Karen, we clarified the situation, categorized the ticket appropriately, and assigned the correct SLA. After troubleshooting and confirming the resolution, we documented each step, ensuring transparency and effective communication. 
+Congratulations! That's another ticket down. We successfully navigated the ticketing process for a reported issue with Adobe, transforming an ambiguous ticket into a clear and actionable support request. By engaging with the end-user, Karen, we clarified the situation, categorized the ticket appropriately, and assigned the correct SLA. After troubleshooting and confirming the resolution, we documented each step, ensuring transparency and effective communication. 
 
 # Example 3: CFO's Laptop won't turn on
 
-- For this example, we are going to pretend like the CFO personally called you in a frenzy because he has a meeting with the company's board members in 30 minutes and his laptop will not turn on.
+- For this example, we are going to pretend like the CFO personally called you in a frenzy because he has a meeting with the company's board members in 30 minutes and their laptop will not turn on.
 - With this information, you understand that time is of the essence so you kindly and calmly ask them for permission to swing by their office to take a look at it.
 
 <img width="700" height="700" alt="Adminuser login" src="https://github.com/user-attachments/assets/b3f9086e-b0ba-4743-bf11-8fcc044d5ca3" />
@@ -261,15 +261,15 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 
 <img width="700" height="700" alt="Add CFO" src="https://github.com/user-attachments/assets/cc4a8286-d9d9-4d58-aa50-cab493dc4028" />
 
-- For the sake of this lab we are going to quickly add an account for the CFO.
-  - Obviously, if this was a real-life scenario the CFO would have an account that we would select at this point. So we can just use this as practice with navigating the software and building intuition!
+- For the sake of this lab, we are going to quickly add an account for the CFO.
+  - Obviously, if this were a real-life scenario, the CFO would have an account that we would select at this point. So we can just use this as practice with navigating the software and building intuition!
 - Click Add User.
 
 <img width="700" height="700" alt="Initial details" src="https://github.com/user-attachments/assets/fdd74855-588c-495b-91cd-cdd94f471503" />
 
 - Begin filling out the initial ticket details.
-- Since the CFO called us, we are going to make the ticket source the phone, set the alert to alert user, and at this point we can use our intuition to fill out the Help Topic and Department.
-- Since the context of the situation is that thier laptop is not working and is needed for a meeting with the company's board members in 30 minutes, we are going to mark it as Sev-A.
+- Since the CFO called us, we are going to make the ticket source the phone, set the alert to alert user, and at this point, we can use our intuition to fill out the Help Topic and Department.
+- Since the context of the situation is that their laptop is not working and is needed for a meeting with the company's board members in 30 minutes, we are going to mark it as Sev-A.
 - Assign it to yourself. You'll be taking this one!
 - Fill out the rest of the details as seen above.
 
@@ -291,24 +291,20 @@ Congratulations! Thats another ticket down. We successfully navigated the ticket
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/8f47adad-2514-456d-ad6b-4c30b798fce4" />
 
 
-- Click on the tickets status that is currently set to open, and change it to resolved!
-- Breifly explain the issue and how it was resolved, then hit close! Crisis averted!!!
-
-
-
- 
-
-
-
-
-
-
+- Click on the ticket's status that is currently set to open, and change it to resolved!
+- Briefly explain the issue and how it was resolved, then hit close! Crisis averted!!!
 
 
 
 ## Conclusion
-This concludes our final project in the osTicket lab series!!! In this lab we have successfully navigated through the life cycle of 3 Help Desk tickets within osTicket. Obviously there is much more to this product that covered here thus I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk.
-If you made it this far, I want to take a moment to sincerely thank you for joining me on this journey. It’s been a long road, and your dedication and enthusiasm have made it all the more rewarding. Thank you for being a part of this experience!
+This concludes our final project in the osTicket lab series!!! In this lab we have successfully navigated through the lifecycle of three distinct help desk tickets, demonstrating a fundamental understanding of ticket management and workflow in real IT environments.
+
+This hands-on experience with osTicket not only reinforced our technical knowledge, but also prepared us for real-world scenarios in IT support. Obviously, there is much more to this product that covered here. Thus, I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk.
+
+
+If you made it this far, I want to take a moment to sincerely thank you for joining me on this journey. It’s been a long road, and your dedication and enthusiasm have made it all the more rewarding. 
+
+Thank you for being a part of this experience!
 
 
 
